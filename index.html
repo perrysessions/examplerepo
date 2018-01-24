@@ -7,19 +7,24 @@
   <body>
     <h1>WELCOME TO EXAMPLE REPO!</h1>
       <ol>
-        <li>Create a new repository in GitHub.</li>
-<li>In your Mac Finder, create the folder with the files you want to be “pushed” (or uploaded) to the repo. In other words, create a folder you will be using to hold all your project files.</li>
-<li>3. Open terminal and cd to that folder.</li>
-<li>4. Enter the following command line commands (but replace bolded with repo name/url) Note: you will need to press enter for the last command line command if you copy and paste the commands directly into your terminal window:
-echo "# examplerepo" >> README.md</li>
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/perrysessions/examplerepo.git
-git push -u origin master
-<li>7. Now you are connect to the GitHub repo with your file on your computer. Woo! </li>
-<li>8. Go to the repository settings and scroll down to GitHub pages. Click the “Choose a theme” button (doesn’t matter which theme because you will be deleting it shortly). You should be able to see a url of your new website in that same location of settings>>GitHub pages<li>
-<li>9. Delete all the files in the repository after you have picked a theme<li>
-      </ol>
+        <li>1. Create a new repository in GitHub.</li>
+        <li>2. In your Mac Finder, create the folder with the files you want to be “pushed” (or uploaded) to the repo. In other words, create a folder you will be using to hold all your project files. </li>
+        <li>3. Open terminal and cd to that folder. </li>
+        <li>4. Enter the following command line commands (but replace bolded with repo name/url) Note: you will need to press enter for the last command line command if you copy and paste the commands directly into your terminal window:</li>
+            echo "# examplerepo" >> README.md
+            git init
+            git add README.md
+            git commit -m "first commit"
+            git remote add origin https://github.com/perrysessions/examplerepo.git
+            git push -u origin master
+        <li>7. Now you are connect to the GitHub repo with your file on your computer. Woo! </li>
+        <li>8. Go to the repository settings and scroll down to GitHub pages. Click the “Choose a theme” button (doesn’t matter which theme because you will be deleting it shortly). </li>
+        <li>9. Go to your repo “code” and delete everything other than the readme file.</li>
+        <li>10. Go back into terminal and enter the command “git pull —all” this will make your finder folder match what is in the GitHub repo.</li>
+        <li>11. Now make a change to the readme file in atom and then use atom’s GitHub integration to stage and commit the changes.</li>
+        <li>12. Then go back to terminal and enter “git push” (or git push —all but I think just git push will work). This will push the changes you made to the readme file up to GitHub repo. </li>
+        <li>13. You should be able to see a url of your new website in your repo under the location of settings>> scroll to GitHub pages. Sometimes it takes a while to populate that url. Sometimes it is ready right away.</li>
+        <li>14. That’s it! Now you can make edits to the code in atom and push it live to your repo when you are ready.</li>
+    </ol>
   </body>
 </html>
